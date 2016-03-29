@@ -1,4 +1,4 @@
-/* Good media break points: 768px, 992px, 1200px*/
+/* Good media break points: 768px, 992px, 1200px */
 
 body {
 	background-color: #0219FF;
@@ -17,8 +17,6 @@ nav {
     opacity: 0.9;
     border-bottom-left-radius: 2px;
 	border-bottom-right-radius: 2px; 
-    padding-top: 1em;
-    margin-bottom: -0.1em;
 }
 
 	nav ul {
