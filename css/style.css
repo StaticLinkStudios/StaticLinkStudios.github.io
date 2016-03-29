@@ -1,0 +1,28 @@
+/* Good media break points: 768px, 992px, 1200px*/
+
+body {
+	background-color: #0219FF;
+	margin: 0;
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+main {
+
+}
+
+/* Small Devices (phones, ect.) */
+@media only all and (max-width: 768px) {
+
+}
+
+/*
+/* Medium Devices (Tablets, ect.) 
+@media only all and (max-width: 992px) {}
+*/
