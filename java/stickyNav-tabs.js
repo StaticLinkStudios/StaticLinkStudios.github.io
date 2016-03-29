@@ -24,13 +24,12 @@ jQuery(document).ready(function () {
 		}
 
 	});
-	// ^ stickyNav funtions
-	//
+
 	// tab function
 	jQuery('.tabs a').on('click', function(e) {
         var currentAttrValue = jQuery(this).attr('href');
 
-        jQuery('main' + currentAttrValue).show().siblings().hide();
+        jQuery('main ' + currentAttrValue).show().siblings().hide();
 
         jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
 
