@@ -10,21 +10,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" charset="utf-8"></script>		
-		<script type="text/javascript" src="java/main.js"></script>
+		<script type="text/javascript" src="java/stickyNav-tabs.js"></script>
 	</head>
 	<body>
 		<header>
-			
+			<img src="media/logo0.png">
 		</header>
-			<nav>
-				<ul>
-					<li class="active"><a href="#home-content" title="Home">Home</a></li>
-					<li><a href="#about-content" title="About">About</a></li>
-					<li><a href="#development-content" title="Development">Development</a></li>
-					<li><a href="#downloads-content" title="Downloads">Downloads</a></li>
-					<li><a href="#links-content" title="Links">Links</a></li>
-				</ul>
-			</nav>
+			<div id="navbarPlaceholder">
+				<nav>
+					<ul class="tabs">
+						<li class="active"><a href="#home-content" title="Home">Home</a></li>
+						<li><a href="#about-content" title="About">About</a></li>
+						<li><a href="#development-content" title="Development">Development</a></li>
+						<li><a href="#downloads-content" title="Downloads">Downloads</a></li>
+						<li><a href="#links-content" title="Links">Links</a></li>
+					</ul>
+				</nav>
+			</div>	
 		<main>
 			<p>Test</p>
 			<div class="active" id="home-content">
